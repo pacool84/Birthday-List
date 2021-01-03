@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+:root {
+  --main-background: #ff9c71;
+  --font-color: #654062;
+  --article: #e8ead3;
+}
+
+body {
+  background-color: var(--main-background);
+}
+
+.app {
+  padding: 15px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1,
+h4 {
+  color: var(--font-color);
+  font-size: 26px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+article {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  align-self: center;
+  margin: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: var(--article);
+  box-shadow: 10px 10px 17px -8px rgba(251, 213, 109, 1);
+}
+
+img {
+  height: 62px;
+  width: 62px;
+  margin-right: 15px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50px;
+}
+
+.app button {
+  height: 50px;
+  width: 150px;
+  border-radius: 15px;
+  border: none;
+  align-self: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #654062;
+}
+
+article div p {
+  color: var(--font-color);
+  font-weight: bold;
+}

@@ -5,7 +5,7 @@ import List from "./List";
 function App() {
   const [people, setPeople] = useState(data);
   return (
-    <div>
+    <div className='app'>
       <h1>{people.length} personas en mi listado </h1>
       <List people={people} />
       <button onClick={() => setPeople([])}>Borrar Listado</button>
